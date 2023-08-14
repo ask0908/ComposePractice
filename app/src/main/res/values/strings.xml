@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ComposePrac</string>
+    <string name="title_activity_broadcast_test">BroadcastTestActivity</string>
 </resources>

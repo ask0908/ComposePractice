@@ -5,4 +5,5 @@
     <string name="title_activity_selection_components_test">SelectionComponentsTestActivity</string>
     <string name="title_activity_compose_view_model_test">ComposeViewModelTestActivity</string>
     <string name="title_activity_swipe_refresh_test">SwipeRefreshTestActivity</string>
+    <string name="title_activity_shimmer_loading_test">ShimmerLoadingTestActivity</string>
 </resources>

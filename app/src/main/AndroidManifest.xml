@@ -12,9 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ComposePrac">
         <activity
-            android:name=".swipe_refresh.SwipeRefreshTestActivity"
+            android:name=".shimmer_loading_effect.ShimmerLoadingTestActivity"
             android:exported="true"
-            android:label="@string/title_activity_swipe_refresh_test"
+            android:label="@string/title_activity_shimmer_loading_test"
             android:theme="@style/Theme.ComposePrac">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,15 +23,28 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".viewmodel_in_compose.ComposeViewModelTestActivity"
+            android:name=".swipe_refresh.SwipeRefreshTestActivity"
             android:exported="true"
-            android:label="@string/title_activity_compose_view_model_test"
+            android:label="@string/title_activity_swipe_refresh_test"
             android:theme="@style/Theme.ComposePrac">
 <!--            <intent-filter>-->
 <!--                <action android:name="android.intent.action.MAIN" />-->
 
 <!--                <category android:name="android.intent.category.LAUNCHER" />-->
 <!--            </intent-filter>-->
+        </activity>
+        <activity
+            android:name=".viewmodel_in_compose.ComposeViewModelTestActivity"
+            android:exported="true"
+            android:label="@string/title_activity_compose_view_model_test"
+            android:theme="@style/Theme.ComposePrac">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
         </activity>
         <activity
             android:name=".selection_components.SelectionComponentsTestActivity"
